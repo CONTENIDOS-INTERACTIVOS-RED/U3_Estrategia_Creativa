@@ -17,13 +17,16 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #EEDDFC
   &-2
-    background-color: #FFFBE8
+    background-color: #F9D7DF
   &-3
-    background-color: #F0E9F6
+    background-color: #FEE6DA
   &-4
-    background-color: #EAF8FD
+    background-color: #F6EDFD
+  &-5
+    background-color: #E2FAFB
+
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -54,8 +57,9 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position-y: -195px
+  
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -97,15 +101,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 25%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 27%) !important
 
 
 .anexo__texto
@@ -173,14 +177,19 @@ $custom-card-img-height: 322px
   font-weight: 900
 
 .lista-ol--cuadro__vineta
-  background-color: $color-secundario
-  color: #000
+  background-color: #AC59F1
+  color: #fff
   min-width: 32px
   min-width: 28px
   height: 28px
 
   span
     font-size: 0.85em
+.lista-ol--cuadro 
+  li
+    padding-top: 0.8rem
+    padding-bottom: 0.8rem
+    font-size: 0.95em
 
 .large
   .linea-tiempo-d__item__content__title
@@ -210,3 +219,26 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 88%
+    transform: translateY(-0%)
+    background-color: #F6EDFD
+    z-index: 0
+  .col-lg-12, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%

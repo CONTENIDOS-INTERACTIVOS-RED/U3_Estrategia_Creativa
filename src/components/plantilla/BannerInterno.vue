@@ -30,8 +30,7 @@ export default {
 </script>
 
 <style lang="sass">
-.banner-interno__fondo
-  background-color: #ECEDF6 !important
+
 .banner-interno
   position: relative
 
@@ -41,7 +40,7 @@ export default {
     bottom: -50px
     left: 0
     right: 0
-    background-color: $color-btn-fondo
+    background-color: $color-fondo-home
     background-size: cover
     background-position: center
 
