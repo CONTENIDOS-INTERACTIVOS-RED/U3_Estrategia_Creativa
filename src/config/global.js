@@ -15,70 +15,15 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Diseño de mensajes y conceptos creativos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Selección de canales y formatos publicitarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +63,87 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'SmolakLozano, E. (Coord.), García Ponce, D. & Mercado Sáez, M. T. (2022). Gestión estratégica de campañas publicitarias y de relaciones públicas en entornos online. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/225281',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Rodríguez Carballeira, Á. (2009). El lavado de cerebro: psicología de la persuasión coercitiva. Marcombo. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/45878',
+    },
+    {
+      referencia:
+        'García García, F. (Coord.), TurViñes, V. (Coord.) & Rodrigo Martín, L. (Coord.). (2024). Creatividad en la narrativa publicitaria: estrategia, contenidos y discursos. Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271733',
+    },
+    {
+      referencia:
+        'Guillem Molins, M., Roig Hierro, E. & Díaz Cobos, G. (2023). Cuando el movimiento facilita el aprendizaje: relación entre actividad física y cognición según la Neurociencia. Editorial INDE.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/276524',
+    },
+    {
+      referencia:
+        'Hernández Pérez, C. & Torres Díaz, R. (2020). Las neurociencias y la educación en la formación universitaria de los profesionales: mediaciones necesarias para un desarrollo humano sostenible. Editorial Universitaria.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/127964',
+    },
+    {
+      referencia:
+        'Puente Balsells, M. L. & Viñals Carrera, F. (2019). Grafología digital, tipográfica y del diseño visual. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/117708',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: '<em>Briefing</em> creativo',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Documento que detalla los objetivos, público objetivo y lineamientos de una campaña publicitaria.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Canales publicitarios',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Medios a través de los cuales se difunde un mensaje publicitario (TV, radio, redes sociales, etc.).',
+    },
+    {
+      termino: 'Concepto creativo',
+      significado: 'Idea central y original que guía una campaña publicitaria.',
+    },
+    {
+      termino: 'Conceptualización creativa',
+      significado:
+        'Proceso de generar ideas innovadoras y originales para una campaña.',
+    },
+    {
+      termino: 'Formatos publicitarios',
+      significado:
+        'Formas en que se presenta un mensaje publicitario (banners, videos, posts, etc.).',
+    },
+    {
+      termino: 'Medición de resultado',
+      significado:
+        'Proceso de evaluar el desempeño de una campaña publicitaria',
+    },
+    {
+      termino: 'Presentación efectiva',
+      significado: 'Exposición clara y persuasiva de una propuesta creativa.',
+    },
+    {
+      termino: 'Presentación y defensa de propuestas creativas',
+      significado:
+        'Exposición de ideas y justificación de decisiones ante clientes o equipos.',
+    },
+    {
+      termino: 'Redacción de mensajes publicitarios',
+      significado: 'Creación de mensajes claros, concisos y persuasivos.',
+    },
+    {
+      termino: 'Selección de canales y formatos publicitarios',
+      significado:
+        'Elección de los medios más adecuados para alcanzar al público objetivo',
+    },
+    {
+      termino: 'Uso de recursos visuales y auditivos',
+      significado:
+        'Utilización de imágenes, sonidos y otros elementos para comunicar un mensaje',
     },
   ],
 }
