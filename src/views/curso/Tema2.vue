@@ -50,6 +50,8 @@
       .row.align-items-start.mb-5
           .col-lg-8
 
+            p(data-aos="fade-left").mb-4 Los criterios para seleccionar canales y formatos publicitarios, son:
+
             AcordionA(tipo="b")(data-aos="fade-left")
               .div(titulo="Identificar dónde se encuentra el público objetivo")
                 ul.lista-ul--color
@@ -160,7 +162,13 @@
               .col-lg-7
                 h5 Gamificación
                 p Motiva la interacción mediante elementos de juego, generando engagement.
-
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema1/slider-3.png")
+              .col-lg-7
+                h5 Personalización
+                p Usa datos para crear anuncios relevantes y únicos para cada usuario, aumentando la efectividad.
 
       p(data-aos="fade-right").mb-4 Estas tendencias permiten a las marcas conectar, de manera más efectiva, con sus audiencias, ofreciendo experiencias únicas que destacan en un mercado saturado.
 
@@ -275,7 +283,7 @@
               h2.mb-4(data-aos="flip-up") Presentación y defensa de propuestas creativas
               p.mb-4(data-aos="fade-right") La presentación y defensa de propuestas creativas, es fundamental para asegurar una comunicación clara y efectiva en sectores como marketing, diseño y emprendimiento. Este proceso incluye estructurar la propuesta con objetivos, conceptos creativos y métricas, emplear storytelling y herramientas visuales, para captar la atención, y manejar objeciones con estrategias proactivas.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

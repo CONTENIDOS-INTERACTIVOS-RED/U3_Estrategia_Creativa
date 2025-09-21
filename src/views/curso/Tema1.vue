@@ -122,7 +122,7 @@
 
           .col-lg-6(data-aos="fade-left")
             .py-4
-              p(data-aos="fade-left").mb-4 Para conocer sobre los fundamentos de la innovación estratégica, lo invitamos a escuchar el siguiente podcast.
+              p(data-aos="fade-left").mb-4 Conocer la audiencia es el primer paso para construir mensajes significativos y generar conexiones auténticas.
               
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
                 texto="Conocer a la audiencia: el primer paso para establecer una verdadera conexión"
@@ -163,7 +163,7 @@
                       | #[b Formato creativo:] uso de infografías o interfaces interactivas.
                     li.mb-0
                       i.fas.fa-check-circle
-                      | #[b Ejemplo:] "¿Sabías que puedes duplicar tus ingresos en solo 2 horas al día?"
+                      | #[b Ejemplo:] "¿Sabías que puedes duplicar tus ingresos en solo 2 horas al día?" Un video ilustrando resultados transformadores.
 
                 .div(titulo="Interés")
                   ul.lista-ul--color
@@ -374,6 +374,8 @@
               figure
                 img(src="@/assets/curso/tema1/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
             .col-lg-8
+
+              p(data-aos="fade-left").mb-4 Los elementos claves en el diseño de mensajes publicitarios, son:
 
               AcordionA(tipo="b")(data-aos="fade-left")
                 .div(titulo="Titulares impactantes")

@@ -120,7 +120,7 @@ export default {
     {
       termino: 'Medición de resultado',
       significado:
-        'Proceso de evaluar el desempeño de una campaña publicitaria',
+        'Proceso de evaluar el desempeño de una campaña publicitaria.',
     },
     {
       termino: 'Presentación efectiva',
@@ -138,12 +138,12 @@ export default {
     {
       termino: 'Selección de canales y formatos publicitarios',
       significado:
-        'Elección de los medios más adecuados para alcanzar al público objetivo',
+        'Elección de los medios más adecuados para alcanzar al público objetivo.',
     },
     {
       termino: 'Uso de recursos visuales y auditivos',
       significado:
-        'Utilización de imágenes, sonidos y otros elementos para comunicar un mensaje',
+        'Utilización de imágenes, sonidos y otros elementos para comunicar un mensaje.',
     },
   ],
 }
